@@ -307,10 +307,6 @@ elif choice == "Complaints & Feedback":
     feedback = st.text_area("Enter your complaint or feedback here")
     if st.button("Submit Feedback"):
         st.success("Thank you for your feedback!")
-
-elif choice == "Donation":
-    display_donation_section()
-
 elif choice == "About":
     st.header("About Us")
     st.write("""
@@ -319,5 +315,9 @@ elif choice == "About":
     adhering to strict policies and regulations to ensure a better future for all. Join us as we work towards 
     regaining the trust and confidence of the people in our community.
     """)
+
+elif choice == "Donation":
+    display_donation_section()
+
 
 # Note: This is a frontend template. Backend integration is required for full functionality.
