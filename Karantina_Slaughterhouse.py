@@ -272,7 +272,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # Sidebar navigation
 st.sidebar.title("Karantina Slaughterhouse")
 st.sidebar.info("Building a sustainable future for our community.")
-menu = ["Careers & Volunteering", "Social Media Updates", "Blogs & News", "Policies & Regulations", "Complaints & Feedback", "Donation", "About"]
+menu = [  "About", "Social Media Updates", "Blogs & News", "Complaints & Feedback", "Policies & Regulations", "Donation", "Careers & Volunteering",]
 choice = st.sidebar.radio("Menu", menu)
 
 # Main content based on navigation choice
