@@ -192,10 +192,6 @@ def display_donation_section():
             """
         )
 
-    with st.expander("View Mailing Address"):
-        st.text(
-            "Karantina Slaughterhouse\n123 Greenway Blvd\nKarantina, Beirut\nLebanon"
-        )
 
     # QR Code for quick donations
     st.subheader("Quick Donate via QR Code")
