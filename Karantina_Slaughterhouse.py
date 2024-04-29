@@ -86,17 +86,17 @@ def display_social_media_updates():
 
     with col1:
         st.markdown("### Clean-up Campaign")
-        st.image("C:\AUB moodle\Linkedin.jpg", caption="Join our latest clean-up campaign!", use_column_width=True)
+        st.image("Cleanup.jpg", caption="Join our latest clean-up campaign!", use_column_width=True)
         st.markdown("[Facebook Post Link](https://facebook.com/yourpostlink)")
 
     with col2:
         st.markdown("### Sustainability Workshop")
-        st.image("C:\AUB moodle\Linkedin.jpg", caption="Learn about sustainability at our workshop.", use_column_width=True)
+        st.image("sustainability.jpg", caption="Learn about sustainability at our workshop.", use_column_width=True)
         st.markdown("[Instagram Post Link](https://instagram.com/yourpostlink)")
 
     with col3:
         st.markdown("### Community Gardening")
-        st.image("C:\AUB moodle\Linkedin.jpg", caption="Get involved in community gardening!", use_column_width=True)
+        st.image("community gardening.jpg", caption="Get involved in community gardening!", use_column_width=True)
         st.markdown("[Twitter Post Link](https://twitter.com/yourpostlink)")
 
 def display_blogs_and_news():
@@ -157,10 +157,10 @@ def display_donation_section():
     col1, col2 = st.columns(2)
     with col1:
         st.markdown("#### Empowering Women in Agriculture")
-        st.image("C:\AUB moodle\Linkedin.jpg", caption="Women's cooperative garden initiative", use_column_width=True)
+        st.image("Empowering women in gardening.jpg", caption="Women's cooperative garden initiative", use_column_width=True)
     with col2:
         st.markdown("#### Advancing Green Energy")
-        st.image("C:\AUB moodle\Linkedin.jpg", caption="Biogas plant installation", use_column_width=True)
+        st.image("Advancing green energy.jpg", caption="Biogas plant installation", use_column_width=True)
 
     st.write(
         """
@@ -199,7 +199,7 @@ def display_donation_section():
 
     # QR Code for quick donations
     st.subheader("Quick Donate via QR Code")
-    st.image("C:\AUB moodle\Linkedin.jpg", caption="Scan to donate.", use_column_width=True)
+    st.image("QR.png", caption="Scan to donate.", use_column_width=True)
 
     st.markdown(
         """
