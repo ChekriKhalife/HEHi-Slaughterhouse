@@ -257,7 +257,7 @@ def display_policies_and_regulations():
 
     # For regulations that require certifications, you might want to display them
     st.subheader("Certifications")
-    st.image("C:\AUB moodle\Linkedin.jpg", caption="Our Food Safety Certification")
+    st.image("foodsafety.jpg", caption="Our Food Safety Certification")
 
 
 # Page configuration and CSS
