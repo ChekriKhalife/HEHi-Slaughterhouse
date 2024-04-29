@@ -199,7 +199,7 @@ def display_donation_section():
 
     # QR Code for quick donations
     st.subheader("Quick Donate via QR Code")
-    st.image("QR.png", caption="Scan to donate.", use_column_width=True)
+    st.image("qr2.png", caption="Scan to donate.", use_column_width=True)
 
     st.markdown(
         """
