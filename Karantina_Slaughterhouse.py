@@ -202,6 +202,30 @@ def display_donation_section():
         questions about donations, or if you'd like to see more detailed financials, please [contact us](#link_to_contact).
         """
     )
+def display_services():
+    st.header("Our Services")
+    st.subheader("Providing Sustainable Solutions")
+    
+    # Using columns to display services in a card-like style
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        st.markdown("### Biogas Production")
+        st.image("biogas.jpg", caption="Sustainable Energy from Waste", use_column_width=True)
+        st.markdown("Price: **Less than $0.85 per kg**")
+        st.write("Utilizing organic waste to produce clean, renewable energy. Our biogas is an affordable and eco-friendly alternative to conventional fossil fuels.")
+    
+    with col2:
+        st.markdown("### Waste Processing")
+        st.image("waste_processing.jpg", caption="Efficient Waste Management", use_column_width=True)
+        st.markdown("Price: **Less than $150 per ton**")
+        st.write("Advanced technology to manage and recycle waste, reducing environmental impact while supporting local communities.")
+    
+    with col3:
+        st.markdown("### Organic Fertilizer")
+        st.image("organic_fertilizer.jpg", caption="Nutrient-Rich Fertilizer", use_column_width=True)
+        st.markdown("Price: **Less than $1.90 per kg**")
+        st.write("Our organic fertilizer is made from composted waste, providing essential nutrients for agriculture without the harmful chemicals.")
 
 # Function to display policies and regulations
 def display_policies_and_regulations():
@@ -272,7 +296,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # Sidebar navigation
 st.sidebar.title("Karantina Slaughterhouse")
 st.sidebar.info("Building a sustainable future for our community.")
-menu = [  "About", "Social Media Updates", "Blogs & News", "Complaints & Feedback", "Policies & Regulations", "Donation", "Careers & Volunteering",]
+menu = ["About", "Social Media Updates", "Blogs & News", "Complaints & Feedback", "Policies & Regulations", "Donation", "Careers & Volunteering", "Services"]
 choice = st.sidebar.radio("Menu", menu)
 
 # Main content based on navigation choice
@@ -315,6 +339,8 @@ elif choice == "About":
     adhering to strict policies and regulations to ensure a better future for all. Join us as we work towards 
     regaining the trust and confidence of the people in our community.
     """)
+elif choice == "Services":
+    display_services()
 
 elif choice == "Donation":
     display_donation_section()
