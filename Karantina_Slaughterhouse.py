@@ -204,7 +204,7 @@ def display_donation_section():
     )
 def display_services():
     st.header("Our Services")
-    st.subheader("Providing Sustainable Solutions")
+    st.subheader("Providing Sustainable Solutions for a Greener Future")
     
     # Using columns to display services in a card-like style
     col1, col2, col3 = st.columns(3)
@@ -212,20 +212,29 @@ def display_services():
     with col1:
         st.markdown("### Biogas Production")
         st.image("gaz.jpg", caption="Sustainable Energy from Waste", use_column_width=True)
-        st.markdown("Price: **Less than $0.85 per kg**")
-        st.write("Utilizing organic waste to produce clean, renewable energy. Our biogas is an affordable and eco-friendly alternative to conventional fossil fuels.")
+        st.markdown("Price: **$0.85 per kg**")
+        st.write("""
+        Harness the power of organic waste to generate clean, renewable energy. Our biogas facilities convert agricultural and food waste into high-quality biogas, 
+        offering an eco-friendly and cost-effective alternative to conventional energy sources. Perfect for businesses looking to reduce both their carbon footprint and energy costs.
+        """)
     
     with col2:
         st.markdown("### Waste Processing")
         st.image("organicwaste.jpg", caption="Efficient Waste Management", use_column_width=True)
-        st.markdown("Price: **Less than $150 per ton**")
-        st.write("Advanced technology to manage and recycle waste, reducing environmental impact while supporting local communities.")
+        st.markdown("Price: **$150 per ton**")
+        st.write("""
+        Our state-of-the-art waste processing systems not only minimize environmental impact but also support the economic growth of local communities. By recycling waste efficiently,
+        we help cities manage their waste sustainably while complying with the latest regulatory standards. Ideal for municipalities and corporations aiming for excellence in environmental stewardship.
+        """)
     
     with col3:
         st.markdown("### Organic Fertilizer")
         st.image("fertilizer.jpg", caption="Nutrient-Rich Fertilizer", use_column_width=True)
-        st.markdown("Price: **Less than $1.90 per kg**")
-        st.write("Our organic fertilizer is made from composted waste, providing essential nutrients for agriculture without the harmful chemicals.")
+        st.markdown("Price: **$1.90 per kg**")
+        st.write("""
+        Enhance agricultural productivity with our nutrient-rich organic fertilizer. Made from 100% composted waste, it provides all essential nutrients that promote healthy plant growth.
+        Free from harmful chemicals, our fertilizer is safe for the environment and perfect for organic farming practices. A must-have for eco-conscious farmers and gardeners.
+        """)
 
 # Function to display policies and regulations
 def display_policies_and_regulations():
