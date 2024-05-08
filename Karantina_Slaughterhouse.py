@@ -211,19 +211,19 @@ def display_services():
     
     with col1:
         st.markdown("### Biogas Production")
-        st.image("biogas.jpg", caption="Sustainable Energy from Waste", use_column_width=True)
+        st.image("gaz.jpg", caption="Sustainable Energy from Waste", use_column_width=True)
         st.markdown("Price: **Less than $0.85 per kg**")
         st.write("Utilizing organic waste to produce clean, renewable energy. Our biogas is an affordable and eco-friendly alternative to conventional fossil fuels.")
     
     with col2:
         st.markdown("### Waste Processing")
-        st.image("waste_processing.jpg", caption="Efficient Waste Management", use_column_width=True)
+        st.image("organicwaste.jpg", caption="Efficient Waste Management", use_column_width=True)
         st.markdown("Price: **Less than $150 per ton**")
         st.write("Advanced technology to manage and recycle waste, reducing environmental impact while supporting local communities.")
     
     with col3:
         st.markdown("### Organic Fertilizer")
-        st.image("organic_fertilizer.jpg", caption="Nutrient-Rich Fertilizer", use_column_width=True)
+        st.image("fertilizer.jpg", caption="Nutrient-Rich Fertilizer", use_column_width=True)
         st.markdown("Price: **Less than $1.90 per kg**")
         st.write("Our organic fertilizer is made from composted waste, providing essential nutrients for agriculture without the harmful chemicals.")
 
